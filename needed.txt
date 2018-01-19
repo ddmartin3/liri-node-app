@@ -1,0 +1,3 @@
+Spotify Client ID: 04bc89ec723049d5825358a5ede60a2d
+
+Spotify Client Secret 933d36ef11414b12af015eff04dcc437

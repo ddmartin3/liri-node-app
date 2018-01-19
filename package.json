@@ -1,0 +1,33 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "Like Siri, but can't talk.  It can only Type.",
+  "main": "liri.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "moment": "^2.20.1",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddmartin3/liri-node-app.git"
+  },
+  "keywords": [
+    "liri",
+    "language",
+    "recognition",
+    "uacodingbootcamp"
+  ],
+  "author": "Darwood Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddmartin3/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/ddmartin3/liri-node-app#readme"
+}
