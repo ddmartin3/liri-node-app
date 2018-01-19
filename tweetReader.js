@@ -1,4 +1,3 @@
-        
 var fs = require("fs");
 var request = require("request");
 var Keys = require("./keys.js");
@@ -21,6 +20,8 @@ module.exports = {
                     console.log(twitterTime);
                     console.log(tweets[i].text);
                     console.log(" ");
+                    fs.appendFileSync('log.txt', twitterTime );
+                    fs.appendFileSync('log.txt', tweets[i].text );
                 }
             } else {
                 throw error

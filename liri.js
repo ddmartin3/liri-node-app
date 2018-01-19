@@ -15,6 +15,8 @@ var music = require("./music.js");
 //inputs
 var instruction = process.argv[2];
 var input = process.argv[3];
+fs.appendFileSync('log.txt', process.argv[2]);
+fs.appendFileSync('log.txt', process.argv[3]);
 
 switch (instruction) {
 //twitter search
